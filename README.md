@@ -59,5 +59,5 @@ module.exports = {
 
 ## License
 
-[MIT License](https://github.com/le0nik/eslint-config-sensible/blob/master/LICENSE)
+[MIT License](https://github.com/le0nik/webpack-stringify-loaders/blob/master/LICENSE)
 
