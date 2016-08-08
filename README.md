@@ -37,15 +37,17 @@ module.exports = {
   module: {
     loaders: {
       test: /\.css$/
-      loader: stringifyLoaders([ // property has to be 'loader'. Webpack expects it to be a string and 'loaders' - an array.
+      // property has to be 'loader', webpack expects it to be a string
+      loader: stringifyLoaders([
         'style',
         {
           loader: 'css',
           query: {
-            module: true,
+            modules: true,
           }
         },
-        ifProd({ // This loader will be `undefined` for non-production environment. Don't worry, `stringifyLoaders` will ignore it in that case.
+        // This loader will be `undefined` for non-production environment. Don't worry, `stringifyLoaders` will ignore it in that case.
+        ifProd({
           loaders: 'postcss', // also supports 'loaders' property, instead of 'loader'
           query: 'pack=defaults', // also supports query as string
         })
