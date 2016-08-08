@@ -1,6 +1,6 @@
 {
   "name": "webpack-stringify-loaders",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Combine and stringify webpack loaders",
   "main": "lib/index.js",
   "scripts": {
