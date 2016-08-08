@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/webpack-stringify-loaders.svg?style=flat-square)](https://www.npmjs.com/package/webpack-stringify-loaders)
 [![License](https://img.shields.io/npm/l/webpack-stringify-loaders.svg?style=flat-square)](https://github.com/le0nik/webpack-stringify-loaders/blob/master/LICENSE)
+[![codecov](https://img.shields.io/codecov/c/github/le0nik/webpack-stringify-loaders.svg?style=flat-square)](https://codecov.io/gh/le0nik/webpack-stringify-loaders)
 
 ## Installation
 
