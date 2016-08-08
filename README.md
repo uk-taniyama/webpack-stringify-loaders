@@ -1,7 +1,7 @@
 # webpack-stringify-loaders
 
 [![npm](https://img.shields.io/npm/v/webpack-stringify-loaders.svg?style=flat-square)](https://www.npmjs.com/package/webpack-stringify-loaders)
-[![License](https://img.shields.io/npm/l/webpack-stringify-loaders.svg?style=flat-square)](https://github.com/le0nik/webpack-stringify-loaders/blob/master/LICENSE)
+[![License](https://img.shields.io/npm/l/webpack-stringify-loaders.svg?style=flat-square)](https://github.com/le0nik/webpack-stringify-loaders/blob/master/LICENSE.md)
 [![codecov](https://img.shields.io/codecov/c/github/le0nik/webpack-stringify-loaders.svg?style=flat-square)](https://codecov.io/gh/le0nik/webpack-stringify-loaders)
 
 ## Installation
@@ -59,5 +59,5 @@ module.exports = {
 
 ## License
 
-[MIT License](https://github.com/le0nik/webpack-stringify-loaders/blob/master/LICENSE)
+[MIT License](https://github.com/le0nik/webpack-stringify-loaders/blob/master/LICENSE.md)
 
