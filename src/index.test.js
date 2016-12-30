@@ -81,6 +81,15 @@ test('called with an array of', t => {
     t.end();
   });
 
+  test('a single loader object(but no array) with a `loader` property without `query`', t => {
+    const actual = stringifyLoaders({ loader: 'style-loader' });
+    const expected = 'style-loader';
+
+    t.equal(actual, expected, 'should return correct string');
+
+    t.end();
+  });
+
   test('a single loader object with a `loader` property without `query`', t => {
     const actual = stringifyLoaders([{ loader: 'style-loader' }]);
     const expected = 'style-loader';

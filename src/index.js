@@ -7,11 +7,15 @@ module.exports = function stringifyLoaders(loaders) {
     return loaders;
   }
 
-  if (!Array.isArray(loaders)) {
-    return '';
+  if (Array.isArray(loaders)) {
+    return reduceLoadersToString(loaders);
   }
 
-  return reduceLoadersToString(loaders);
+  if (typeof loaders === 'object') {
+    return stringifyLoaderObject(loaders);
+  }
+
+  return '';
 };
 
 /**
