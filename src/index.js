@@ -1,5 +1,5 @@
 /**
- * @param {Array|string|null|undefined} loaders
+ * @param {Array|string|Object|null|undefined} loaders
  * @returns {string}
  */
 module.exports = function stringifyLoaders(loaders) {
@@ -11,7 +11,7 @@ module.exports = function stringifyLoaders(loaders) {
     return reduceLoadersToString(loaders);
   }
 
-  if (typeof loaders === 'object') {
+  if (loaders) {
     return stringifyLoaderObject(loaders);
   }
 

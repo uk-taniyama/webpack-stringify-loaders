@@ -20,6 +20,18 @@ test('called with non String or Array argument', t => {
   t.end();
 });
 
+test('called with null', t => {
+  t.equal(stringifyLoaders(null), '', 'should return an empty string');
+
+  t.end();
+});
+
+test('called with undefined', t => {
+  t.equal(stringifyLoaders(), '', 'should return an empty string');
+
+  t.end();
+});
+
 test('called with an empty string', t => {
   t.equal(stringifyLoaders(''), '', 'should return an empty string');
 
